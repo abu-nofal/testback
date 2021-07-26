@@ -12,7 +12,7 @@ const DataFromApi=require('./controllers/api.controller')
 const {getFav,createFav,deleteFav,updateFav}=require('./controllers/fav.controller')
 const PORT=process.env.PORT;
 
-mongoose.connect("mongodb://localhost:27017/try",{
+mongoose.connect("mongodb+srv://koko:ahmad7890@cluster0.bgfl8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
